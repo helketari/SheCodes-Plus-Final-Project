@@ -1,0 +1,78 @@
+h1 {
+  font-family: "Srisakdi", cursive;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: "Srisakdi", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.container {
+  font-family: "Srisakdi", cursive;
+  color: #9e3668;
+}
+
+.card {
+  top: 20px;
+  background: #fde3f0;
+}
+
+.search {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: #f6a9ce;
+  border: 1 px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+button {
+  background: #f6a9ce;
+  border: 1 px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.col {
+  text-align: center;
+}
+
+#current {
+  border: none;
+}
+
+#current-temp {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#change-celsius,
+#change-fahrenheit,
+.divider {
+  font-size: 24px;
+  color: #9e3668;
+}
+
+#current-specs {
+  font-size: 20px;
+}
+
+#forecast {
+  font-size: 22px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.high,
+.day {
+  font-weight: 700;
+}
