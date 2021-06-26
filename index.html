@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <div class="search">
+            <form id="city-search-form">
+            <input type="text" id="city-search" placeholder="Enter location" />
+            <input type="submit" value="Search" />
+            <br />
+            <button id="gps-search-form">Use current location</button>
+          </div>
+          <br />
+          <h1>London</h1>
+          <h2>Saturday, 5 June at 18:52</h2>
+          <br />
+          <div class="card" id="current">
+            <div class="card-body">
+              <div class="row">
+                <div class="col" id="current-temp">
+                ⛅️  <span class="currentTemp">23</span>˚C
+            </div>
+                <div class="col" id="current-specs">
+                  High: 24˚C
+                  <br />
+                  Low: 12˚C
+                  <br />
+                  Chance of rain: 20%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="card" id="forecast">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                🌧
+                <br />
+                <span class="high">21˚C</span>/12˚C
+                <br />
+                <span class="day">Sunday</span>
+              </div>
+              <div class="col">
+                🌧
+                <br />
+                <span class="high">22˚C</span>/13˚C
+                <br />
+                <span class="day">Monday</span>
+              </div>
+              <div class="col">
+                ⛅️
+                <br />
+                <span class="high">23˚C</span>/11˚C
+                <br />
+                <span class="day">Tuesday</span>
+              </div>
+              <div class="col">
+                ⛅️
+                <br />
+                <span class="high">24˚C</span>/12˚C
+                <br />
+                <span class="day">Wednesday</span>
+              </div>
+              <div class="col">
+                ⛅️
+                <br />
+                <span class="high">22˚C</span>/14˚C
+                <br />
+                <span class="day">Thursday</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
