@@ -76,3 +76,8 @@ button {
 .day {
   font-weight: 700;
 }
+
+a {
+  text-decoration: none;
+  color: #9e3668;
+}
