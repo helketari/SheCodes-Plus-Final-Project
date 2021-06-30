@@ -77,7 +77,10 @@ button {
   font-weight: 700;
 }
 
-p {
+a {
   text-decoration: none;
   color: #9e3668;
+  position: relative;
+  top: 20px;
+  left: 100px;
 }
