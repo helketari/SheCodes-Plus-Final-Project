@@ -79,11 +79,10 @@ button {
 
 a {
   text-decoration: none;
-  color: #9e3668;
 }
 
-p {
-  position: relative;
-  top: 20px;
-  left: 100px;
+.GitHub-link {
+  color: #9e3668;
+  margin-top: 20px;
+  text-align: center;
 }
